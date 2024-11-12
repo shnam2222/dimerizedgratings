@@ -485,10 +485,13 @@ def tunability(parameters):
     peak_freq_005eV = 2 * torch.pi / peak_005eV
     peak_freq_060eV = 2 * torch.pi / peak_060eV
     
-    print("Peak wavelengths: ",peak_005eV.item(), peak_060eV.item())
-
     FWHM_060 = find_FWHM_060eV(peak_060eV, center, length_x, length_y, period_x, period_y, d, t)
     FWHM_005 = find_FWHM_005eV(peak_005eV, center, length_x, length_y, period_x, period_y, d, t)
     tunability = (-peak_freq_060eV + peak_freq_005eV) * 2 / (FWHM_060 + FWHM_005 + 1e-10)  # Add small constant to avoid division issues
-    print("FWHM: ",FWHM_005.item(), FWHM_060.item())
+
+    if (FWHM_005 != None) and (FWHM_060 != None):
+        tunability = (-peak_freq_060eV + peak_freq_005eV) * 2 / (FWHM_060 + FWHM_005 + 1e-10)  # Add small constant to avoid division issues
+    else: 
+        return 0
+    
     return -1 * tunability.item()
