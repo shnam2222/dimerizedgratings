@@ -4,3 +4,5 @@ Repository for code on tunable dimerized high contrast gratings. Includes method
 $$
 T = \frac{\Delta \omega_0}{\gamma} = \frac{\omega_0 (\beta_1) - \omega_0 (\beta_0)}{\gamma},  \ \ \ \  \gamma = (\gamma(\beta_1)+\gamma(\beta_0))/2
 $$
+
+<img src="https://github.com/user-attachments/assets/8eab29c1-b7cb-467f-9fae-12e0db360002" width="300">
