@@ -5,4 +5,4 @@ $$
 T = \frac{\Delta \omega_0}{\gamma} = \frac{\omega_0 (\beta_1) - \omega_0 (\beta_0)}{\gamma},  \ \ \ \  \gamma = (\gamma(\beta_1)+\gamma(\beta_0))/2
 $$
 
-<img src="https://github.com/user-attachments/assets/ccbd93ef-2db0-4791-bc91-60ae2df9484a" width="300">
+<img src="https://github.com/user-attachments/assets/ccbd93ef-2db0-4791-bc91-60ae2df9484a" width="600">
