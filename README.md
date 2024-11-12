@@ -6,3 +6,4 @@ T = \frac{\Delta \omega_0}{\gamma} = \frac{\omega_0 (\beta_1) - \omega_0 (\beta_
 $$
 
 <img src="https://github.com/user-attachments/assets/ccbd93ef-2db0-4791-bc91-60ae2df9484a" width="600">
+<img src="https://github.com/user-attachments/assets/ae66d8eb-4d6f-4acf-b7cf-abb4223c32c4" width="600">
